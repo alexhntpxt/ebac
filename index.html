@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css"/>
+    <title>HTML-JS</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Verificação Numérica</h1>
+        <h2>Digite dois números nos campos abaixo:</h2>
+        <form id="form-numerico">
+            <input type="number" id="campo-a" required placeholder="Campo A" />
+            <p class="error-message">Precisa ser um número</p>
+            <input type="number" id="campo-b" required placeholder="Campo B" />
+            <textarea placeholder="Descrição (opcional)" id="descricao"></textarea>
+            <button id="btn-sub" type="submit">Verificar</button>
+        </form>
+        <p class="message"></p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
